@@ -1,6 +1,9 @@
 import './assets/main.css'
 
 import { createApp } from 'vue'
-import App from './App.vue'
+//import Contador from './examples/ContadorOptions.vue'
+import ProductList from './examples/ProductList.vue'
 
-createApp(App).mount('#app')
+const app =  createApp(ProductList)
+
+app.mount('#app')
